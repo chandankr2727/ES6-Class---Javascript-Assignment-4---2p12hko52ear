@@ -9,7 +9,7 @@ class API {
     return this._secure;
   }
 
-  updateURL(newUrl) {
+  updateUrl(newUrl) {
     this.url = newUrl;
     this._secure = newUrl.startsWith('https');
   }
