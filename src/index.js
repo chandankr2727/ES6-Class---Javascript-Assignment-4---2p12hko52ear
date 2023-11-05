@@ -1,7 +1,6 @@
 class API {
   constructor(url, method = 'GET') {
     this.url = url;
-    this.method = method;
     this._secure = url.startsWith('https');
   }
 
